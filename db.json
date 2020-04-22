@@ -1,4 +1,77 @@
 {
+  "collected": [
+    {
+      "id": 1,
+      "streamId": 1,
+      "amount": 100
+    },
+    {
+      "id": 2,
+      "streamId": 1,
+      "amount": 10
+    },
+    {
+      "streamId": 1,
+      "amount": 73,
+      "id": 3
+    },
+    {
+      "streamId": 1,
+      "amount": 78,
+      "id": 4
+    },
+    {
+      "streamId": 3,
+      "amount": 46,
+      "id": 5
+    }
+  ],
+  "tokens": [
+    {
+      "token": 1,
+      "id": 1
+    },
+    {
+      "token": "tkn_test_VSQ8iJctZqrs24SU",
+      "id": 2
+    },
+    {
+      "token": "tkn_test_1ukdK61s3zwmPXMR",
+      "id": 3
+    },
+    {
+      "token": "tkn_test_U73spNbbHy27Cf7y",
+      "id": 4
+    },
+    {
+      "token": "tkn_test_SCZNPmzyGYrZiGpp",
+      "id": 5
+    },
+    {
+      "token": "tkn_test_lP42L1z5zkRQAlR5",
+      "id": 6
+    },
+    {
+      "token": "tkn_test_83woBobgEwhfuuwU",
+      "id": 7
+    },
+    {
+      "token": "tkn_test_fOchjrNBtOdqNVTu",
+      "id": 8
+    },
+    {
+      "token": "tkn_test_21r5zcZMVo1zIIBC",
+      "id": 9
+    },
+    {
+      "token": "tkn_test_GAAUnKitUMGLMo0o",
+      "id": 10
+    },
+    {
+      "token": "tkn_test_ghmeencHTwyNFzpd",
+      "id": 11
+    }
+  ],
   "streams": [
     {
       "title": "Concierto 1",
@@ -7,7 +80,9 @@
       "id": 1,
       "type": "sombrero",
       "date": "01-Mayo-2020",
-      "image": "concierto1.jpg"
+      "image": "concierto1.jpg",
+      "collected": 230,
+      "streaming": false
     },
     {
       "title": "Concierto 2",
@@ -24,7 +99,8 @@
       "id": 3,
       "type": "sombrero",
       "date": "02-Mayo-2020",
-      "image": "concierto3.jpg"
+      "image": "concierto3.jpg",
+      "streaming": false
     },
     {
       "title": "Conncierto en vivo 4",
@@ -33,7 +109,22 @@
       "id": 4,
       "type": "sombrero",
       "date": "02-Mayo-2020",
-      "image": "concierto4.jpg"
+      "image": "concierto4.jpg",
+      "streaming": false
+    },
+    {
+      "title": "mi evento",
+      "description": "mi evento",
+      "userId": "112971843829858814995",
+      "id": 5,
+      "streaming": false
+    },
+    {
+      "title": "Mi evento 2",
+      "description": "HOLA",
+      "userId": "104287921636506192280",
+      "id": 6,
+      "streaming": false
     }
   ],
   "comments": [
@@ -253,6 +344,48 @@
       "streamId": 3,
       "date": "2020-04-15T22:55:35.279Z",
       "id": 33
+    },
+    {
+      "comment": "ss",
+      "userId": "104287921636506192280",
+      "streamId": 6,
+      "date": "2020-04-22T12:36:03.099Z",
+      "id": 34
+    },
+    {
+      "comment": "aaa",
+      "userId": "104287921636506192280",
+      "streamId": 1,
+      "date": "2020-04-22T17:43:49.569Z",
+      "id": 35
+    },
+    {
+      "comment": "a",
+      "userId": "104287921636506192280",
+      "streamId": 1,
+      "date": "2020-04-22T17:43:50.106Z",
+      "id": 36
+    },
+    {
+      "comment": "a",
+      "userId": "104287921636506192280",
+      "streamId": 1,
+      "date": "2020-04-22T17:43:50.473Z",
+      "id": 37
+    },
+    {
+      "comment": "a",
+      "userId": "104287921636506192280",
+      "streamId": 1,
+      "date": "2020-04-22T17:43:50.816Z",
+      "id": 38
+    },
+    {
+      "comment": "a",
+      "userId": "104287921636506192280",
+      "streamId": 1,
+      "date": "2020-04-22T17:43:51.189Z",
+      "id": 39
     }
   ]
 }
